@@ -1,0 +1,84 @@
+body {
+  padding: auto;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: darkolivegreen;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family:Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1em;
+  background-color:rgba(136, 156, 102, 0.842);
+}
+#nav-list a:hover {
+  background: whitesmoke;
+  color:rgba(136, 156, 102, 0.842);
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* <!-- End of Navbar --> */
+
+
+/* CONTENT AREA  */
+
+#home-tile {
+  padding: 2%;
+}
+
+#home-tile h1 {
+  color: darkolivegreen;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 10px;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  border: 0px;
+  overflow: hidden;
+  background-color: rgb(211, 224, 191);
+}
+
+p {
+  color: darkolivegreen;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+#text-content {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* END CONTENT AREA */
+
